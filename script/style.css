@@ -1,0 +1,132 @@
+
+body{
+     font-family: Helvetica;
+
+}
+
+/*nav bar*/
+.navbar{
+    background-color: #660066;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+     font-family: "Oswald";
+     font-size: 40px;
+     font-weight: 700;
+}
+
+
+/*Hero seccion*/
+
+#hero-section {
+     background-image: url("../img/bg_hero.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     position: relative;
+
+}
+
+
+#hero-section div{
+     position: absolute;
+     bottom: 15px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+
+.hero-line{
+     width: 345px;
+}
+
+
+#hero-section h1{
+     font-family: "Oswald";
+     font-size: 72px;
+}
+
+#hero-section h1:first-child{
+     font-weight: 200;
+}
+
+
+#hero-section h1:last-child{
+     font-weight: 900;
+}
+
+/*sobre mi */
+
+#sobre-mi{
+color: #373A3C;
+font-family: "OpenSans";
+line-height: 3;
+
+}
+
+
+/*exp*/
+
+#experiencia div h1{
+     font-family: "Oswald";
+     font-size: 52px;
+}
+
+
+
+#experiencia i{
+color: #660066;
+}
+
+#experiencia div:last-child article h4:first-child{
+     font-family: "Oswald";
+  
+}
+
+#experiencia div:last-child article h4:last-child{
+     font-family: "Open Sans";
+     font-weight: 300;
+}
+
+
+/*ultimos trabajos*/
+
+
+#trabajos {
+ background-color: #660066;
+     font-family: "Oswald";
+
+}
+
+#trabajos h1{
+     font-size: 52px;
+}
+
+/*contacto*/
+
+#contacto h1{
+     font-family: "Oswald";
+     font-size: 52px;
+}
+
+/*footer*/
+
+#footer{
+     background-color: #660066;
+
+}
+
+#footer h1{
+     font-family: "oswald";
+
+}
+
+#footer a{
+          color:white;
+          text-decoration: none;
+
+}
