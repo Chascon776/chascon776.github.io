@@ -6,7 +6,7 @@ body{
 
 /*nav bar*/
 .navbar{
-    background-color: #black;
+    background-color: #000000;
     position: fixed;
     width: 100vw;
     z-index: 1;
